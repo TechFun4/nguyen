@@ -1,6 +1,6 @@
 # Mr. Nguyen's Website
 
-Hello students, parents, and teachers! I am TechFun, and I welcome you to the source code of Mr. Nguyen's Website! Free free to dig into the files! The website is currently hosted on <a href="https://mrnguyen.cf" target="_blank">https://mrnguyen.cf</a>.
+Hello students, parents, and teachers! I am TechFun, and I welcome you to the source code of Mr. Nguyen's Website! Free free to dig into the files! The website is currently hosted on [https://mrnguyen.cf](https://mrnguyen.cf).
 
 ## How It Works
 
@@ -8,7 +8,7 @@ The "static" and "templates" folder should be in the same directory as the "main
 
 ## About Me
 
-I am TechFun, a full stack developer. Learn more about me <a href="https://techfun.live/about" target="_blank">here</a>.
+I am TechFun, a full stack developer. Learn more about me [here](https://techfun.live/about).
 
 ## Contributions
 
