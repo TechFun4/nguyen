@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!---
+  Hello, it's TechFun. Please don't bully me for messy code. If you wanna contribute, please contact me at mail@techfun.live. Thanks!
+  --->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mr. Nguyen's Website">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    <meta name="description" content="{{description}}">
+    <meta name="author" content="David L">
+    <meta name="theme-color" content="#967bb6">
+    <meta property="og:image" content="/logo">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg bg-light navigation-clean">
+      <div class="container">
+        <a class="navbar-brand" href="/">Mr. Nguyen's Website<img src="/logo-rounded" width="50px" style="padding-left:10px"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pictures">Pictures</a></li>
+            <li class="nav-item"></li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Classes</a>
+              <div class="dropdown-menu"><a class="dropdown-item" href="/algebra-2">Algebra 2</a><a class="dropdown-item" href="/ap-statistics">AP Statistics</a><a class="dropdown-item" href="/ap-computer-science-a">AP Computer Science A</a></div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Useful Links</a>
+              <div class="dropdown-menu"><a class="dropdown-item" href="https://www.desmos.com/calculator" target="_blank">Desmos</a><a class="dropdown-item" href="https://google.com" target="_blank">Delta Math?</a><a class="dropdown-item" href="http://highlygiftedmagnet.org" target="_blank">HGM Website</a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="content" style="padding-top:80px">
+      {% block content %}
+      {% endblock %}
+    </div>
+    <footer class="footer-clean">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Me</a></li>
+              <li><a href="/pictures">Pictures</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Classes</h3>
+            <ul>
+              <li><a href="/algebra-2">Algebra 2</a></li>
+              <li><a href="/ap-statistics">AP Statistics</a></li>
+              <li><a href="/ap-computer-science-a">AP Computer Science A</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Contact Me</h3>
+            <ul>
+              <li><a href="#">Email: whatever@gmail.com/lausd.net idk</a></li>
+              <li><a href="https://discord.com/users/687715654064668811">Discord @Mr. Nguyen#5442</a></li>
+              <li><a href="#">anything else?</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#" target="_blank"><i class="bi-envelope-fill"></i></a><a href="https://www.instagram.com/phia5c0/" target="_blank"><i class="bi-instagram"></i></a><a href="https://discord.com/users/687715654064668811" target="_blank"><i class="bi-discord"></i></a><a href="https://www.instagram.com/phia5c0/" target="_blank"><i class="bi-instagram"></i></a>
+            <p class="copyright">Website by <a href="https://techfun.live/about?utm_source=nguyen" title="TechFun" target="_blank">TechFun</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
